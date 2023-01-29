@@ -6,20 +6,30 @@
 
 masques 项目模板的地址：https://github.com/SalengNotLittleMeng/masques
 
-项目 GitHub 地址：https://github.com/SalengNotLittleMeng/masques-directives
+项目 GitHub 地址：https://github.com/SalengNotLittleMeng/masques-cli
 
 ## 使用：
 
-npm 安装:
+npm 全局安装:
 
 ```shell
     npm i @masques/cli -g
 ```
 
-yarn 安装:
+yarn 全局安装:
 
 ```shell
    yarn add @masques/cli -g
 ```
 
-命令行拉取项目：
+命令行拉取项目模板：
+
+```shell
+    masques-cli create <项目名>
+```
+
+获取帮助信息
+
+```shell
+    masques-cli -- help
+```
